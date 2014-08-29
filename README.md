@@ -7,9 +7,9 @@ Most companies, exhibitions, shops ... have opening hours. Instead of using an e
 * Settings for saving the opening hours per day, in two blocks
 * Setting for days when the shop is not open.
 * Frontend widgets
- 	* **Today**: Display of the shop is open today, and if zo, when.
+ 	* **Today**: Display if the shop is open today, and if so, when.
  	* **@todo: Week**: Display the opening hours for this week 
- 	* **@todo: General**: Display the general opening ours (without the exceptions)
+ 	* **@todo: General**: Display the general opening hours (without the exceptions)
 * Translations for English and Dutch
 
 ##License
