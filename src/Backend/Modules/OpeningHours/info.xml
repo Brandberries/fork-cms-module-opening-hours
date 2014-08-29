@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>Opening hours</name>
+	<version>1.0.0</version>
+	<requirements>
+		<minimum_version>3.7</minimum_version>
+	</requirements>
+	<description>
+		<![CDATA[
+		    For each day of the week add opening hours that can be displayed in a widget.
+		    Probably some days you're closed anyway (Holidays).
+		    You can add these dates in an extra settings
+		]]>
+	</description>
+	<authors>
+		<author>
+			<name><![CDATA[Stef Bastiaansen]]></name>
+			<url><![CDATA[http://www.megasnort.com]]></url>
+		</author>
+	</authors>
+	<events>
+		<event application="backend" name="after_saved_settings"><![CDATA[Triggered when the hours and dates are changed.]]></event>
+	</events>
+</module>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale>
+    <Backend>
+        <Core>
+            <item type="label" name="OpeningHours">
+                <translation language="nl"><![CDATA[openingsuren]]></translation>
+                <translation language="en"><![CDATA[Opening hours]]></translation>
+            </item>
+        </Core>
+        <OpeningHours>
+            <item type="label" name="And">
+                <translation language="nl"><![CDATA[en]]></translation>
+                <translation language="en"><![CDATA[and]]></translation>
+            </item>
+            <item type="label" name="Closed">
+                <translation language="nl"><![CDATA[gesloten]]></translation>
+                <translation language="en"><![CDATA[closed]]></translation>
+            </item>
+            <item type="label" name="Friday">
+                <translation language="nl"><![CDATA[vrijdag]]></translation>
+                <translation language="en"><![CDATA[friday]]></translation>
+            </item>
+            <item type="label" name="Monday">
+                <translation language="nl"><![CDATA[maandag]]></translation>
+                <translation language="en"><![CDATA[monday]]></translation>
+            </item>
+            <item type="label" name="Saturday">
+                <translation language="nl"><![CDATA[zaterdag]]></translation>
+                <translation language="en"><![CDATA[saturday]]></translation>
+            </item>
+            <item type="label" name="Sunday">
+                <translation language="nl"><![CDATA[zondag]]></translation>
+                <translation language="en"><![CDATA[sunday]]></translation>
+            </item>
+            <item type="label" name="Thursday">
+                <translation language="nl"><![CDATA[donderdag]]></translation>
+                <translation language="en"><![CDATA[thursday]]></translation>
+            </item>
+            <item type="label" name="Tuesday">
+                <translation language="nl"><![CDATA[dinsdag]]></translation>
+                <translation language="en"><![CDATA[tuesday]]></translation>
+            </item>
+            <item type="label" name="Until">
+                <translation language="nl"><![CDATA[tot]]></translation>
+                <translation language="en"><![CDATA[until]]></translation>
+            </item>
+            <item type="label" name="Wednesday">
+                <translation language="nl"><![CDATA[woensdag]]></translation>
+                <translation language="en"><![CDATA[wednesday]]></translation>
+            </item>
+            <item type="message" name="Closed">
+                <translation language="nl"><![CDATA[Geef in onderstaand tekstveld per regel een dag in waarop jullie gesloten zijn. Zijn jullie elk jaar dicht, op bijvoorbeeld kerstmis, dan geef je 25/12 in. Zijn jullie enkel dicht op de kerstmis van 2014, dan vul je 25/12/2014 in.]]></translation>
+                <translation language="en"><![CDATA[Add in the textarea below per line the closing days. Do you close on the same day every year (f.e. Christmas), add '25/12'. Do you only close in 2014, then add '25/12/2014'. Note that the date should be formatted (DD/MM/YYYY)]]></translation>
+            </item>
+            <item type="message" name="Days">
+                <translation language="nl"><![CDATA[Vul per dag de openingsuren zijn. Is er geen middagpauze dan kan je de twee laatste velden leeg laten. Niet open op een dag? Dan laat je alle vier de velden leeg.]]></translation>
+                <translation language="en"><![CDATA[Add the opening hours below. Don't have al lunch break? Just leave the last two fields empty. Don't open the whole day? Leave all fields empty.]]></translation>
+            </item>
+        </OpeningHours>
+    </Backend>
+    <Frontend>
+        <Core>
+            <item type="label" name="Today">
+                <translation language="nl"><![CDATA[vandaag]]></translation>
+                <translation language="en"><![CDATA[today]]></translation>
+            </item>
+            <item type="label" name="OpeningHours">
+                <translation language="nl"><![CDATA[Openingsuren]]></translation>
+                <translation language="en"><![CDATA[Opening hours]]></translation>
+            </item>
+            <item type="message" name="Closed">
+                <translation language="nl"><![CDATA[Vandaag zijn we gesloten.]]></translation>
+                <translation language="en"><![CDATA[We're closed today.]]></translation>
+            </item>
+            <item type="message" name="ClosedExtraordinary">
+                <translation language="nl"><![CDATA[Vandaag zijn we uitzonderlijk gesloten.]]></translation>
+                <translation language="en"><![CDATA[By exception we're closed today.]]></translation>
+            </item>
+            <item type="message" name="YesWeAreOpenFrom">
+                <translation language="nl"><![CDATA[We zijn open van %1$s tot %2$s.]]></translation>
+                <translation language="en"><![CDATA[Today we're open from %1$s until %2$s.]]></translation>
+            </item>
+            <item type="message" name="YesWeAreOpenFromAndFrom">
+                <translation language="nl"><![CDATA[We zijn open van %1$s tot %2$s en van %3$s tot %4$s]]></translation>
+                <translation language="en"><![CDATA[Today we're open from %1$s until %2$s and from %3$s until %4$s]]></translation>
+            </item>
+        </Core>
+    </Frontend>
+</locale>
