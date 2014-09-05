@@ -21,29 +21,32 @@ use Backend\Modules\OpeningHours\Engine\Model as BackendOpeningHoursModel;
 class Model
 {
 
-
 	/**
-	 * Fetch all the settings for today
+	 * Fetch all the settings for a given day
 	 *
-	 * @param int $weekDay
+	 * @param int $time timestamp
 	 * @return array
 	 */
-	public static function getToday()
+	public static function getDay($time, $ignoreToday = false)
 	{
 		$settings = array();
 
-		$closedOn = explode('
+		if (!$ignoreToday) {
+
+			$closedOn = explode('
 ', FrontendModel::getModuleSetting('OpeningHours', 'closed', ''));
 
-		foreach ($closedOn as $closed) {
-			if ($closed == substr(date('d/m/Y'), 0, strlen($closed))) {
-				$settings["closedExtraordinary"] = true;
-				return $settings;
+			foreach ($closedOn as $closed) {
+				if ($closed == substr(date('d/m/Y', $time), 0, strlen($closed))) {
+					$settings["closedExtraordinary"] = true;
+					return $settings;
+				}
 			}
+
 		}
 
 
-		$dayname = BackendOpeningHoursModel::$days[date('N')-1];
+		$dayname = BackendOpeningHoursModel::$days[date('N', $time)-1];
 
 		$start1 = FrontendModel::getModuleSetting('OpeningHours', $dayname . '_start1', '08:00');
 		$stop1 = FrontendModel::getModuleSetting('OpeningHours', $dayname . '_stop1', '17:00');
@@ -72,5 +75,18 @@ class Model
 
 
 		return $settings;
+	}
+
+
+
+	/**
+	 * Fetch all the settings for today
+	 *
+	 * @param int $weekDay
+	 * @return array
+	 */
+	public static function getToday()
+	{
+		return self::getDay(time());
 	}
 }

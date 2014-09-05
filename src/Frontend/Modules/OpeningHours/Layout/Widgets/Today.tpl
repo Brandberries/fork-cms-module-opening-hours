@@ -23,7 +23,7 @@
 		{$msgClosedExtraordinary}
 	{/option:settings.closedExtraordinary}
 
-	{option:!settings.closedExtraOrdinary}
+	{option:!settings.closedExtraordinary}
 
 		{option:!settings.closed}
 
@@ -45,6 +45,6 @@
 
 		{/option:!settings.closed}
 
-	{/option:!settings.closedExtraOrdinary}
+	{/option:!settings.closedExtraordinary}
 
 {/option:settings}

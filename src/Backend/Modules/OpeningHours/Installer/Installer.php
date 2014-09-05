@@ -61,6 +61,26 @@ class Installer extends ModuleInstaller
 			1701
 		);
 
+		$this->insertExtra(
+			'OpeningHours',
+			'widget',
+			'ThisWeek',
+			'ThisWeek',
+			null,
+			'N',
+			1702
+		);
+
+		$this->insertExtra(
+			'OpeningHours',
+			'widget',
+			'General',
+			'General',
+			null,
+			'N',
+			1702
+		);
+
 		// module rights
         $this->setModuleRights(1, 'OpeningHours');
 
