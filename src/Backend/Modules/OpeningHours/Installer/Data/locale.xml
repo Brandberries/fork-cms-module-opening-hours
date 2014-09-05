@@ -4,7 +4,11 @@
         <Core>
             <item type="label" name="OpeningHours">
                 <translation language="nl"><![CDATA[openingsuren]]></translation>
-                <translation language="en"><![CDATA[Opening hours]]></translation>
+                <translation language="en"><![CDATA[opening hours]]></translation>
+            </item>
+            <item type="label" name="ThisWeek">
+                <translation language="nl"><![CDATA[deze week]]></translation>
+                <translation language="en"><![CDATA[this week]]></translation>
             </item>
         </Core>
         <OpeningHours>
@@ -91,6 +95,50 @@
             <item type="label" name="Closed">
                 <translation language="nl"><![CDATA[gesloten]]></translation>
                 <translation language="fr"><![CDATA[closed]]></translation>
+            </item>
+            <item type="label" name="And">
+                <translation language="nl"><![CDATA[en]]></translation>
+                <translation language="en"><![CDATA[and]]></translation>
+            </item>
+            <item type="label" name="Closed">
+                <translation language="nl"><![CDATA[gesloten]]></translation>
+                <translation language="en"><![CDATA[closed]]></translation>
+            </item>
+            <item type="label" name="Friday">
+                <translation language="nl"><![CDATA[vrijdag]]></translation>
+                <translation language="en"><![CDATA[friday]]></translation>
+            </item>
+            <item type="label" name="Monday">
+                <translation language="nl"><![CDATA[maandag]]></translation>
+                <translation language="en"><![CDATA[monday]]></translation>
+            </item>
+            <item type="label" name="Saturday">
+                <translation language="nl"><![CDATA[zaterdag]]></translation>
+                <translation language="en"><![CDATA[saturday]]></translation>
+            </item>
+            <item type="label" name="Sunday">
+                <translation language="nl"><![CDATA[zondag]]></translation>
+                <translation language="en"><![CDATA[sunday]]></translation>
+            </item>
+            <item type="label" name="Thursday">
+                <translation language="nl"><![CDATA[donderdag]]></translation>
+                <translation language="en"><![CDATA[thursday]]></translation>
+            </item>
+            <item type="label" name="Tuesday">
+                <translation language="nl"><![CDATA[dinsdag]]></translation>
+                <translation language="en"><![CDATA[tuesday]]></translation>
+            </item>
+            <item type="label" name="Until">
+                <translation language="nl"><![CDATA[tot]]></translation>
+                <translation language="en"><![CDATA[until]]></translation>
+            </item>
+            <item type="label" name="Wednesday">
+                <translation language="nl"><![CDATA[woensdag]]></translation>
+                <translation language="en"><![CDATA[wednesday]]></translation>
+            </item>
+            <item type="label" name="ThisWeek">
+                <translation language="nl"><![CDATA[deze week]]></translation>
+                <translation language="en"><![CDATA[this week]]></translation>
             </item>
         </Core>
     </Frontend>
