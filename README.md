@@ -8,8 +8,8 @@ Most companies, exhibitions, shops ... have opening hours. Instead of using an e
 * Setting for days when the shop is not open.
 * Frontend widgets
  	* **Today**: Display if the shop is open today, and if so, when.
- 	* **@todo: Week**: Display the opening hours for this week 
- 	* **@todo: General**: Display the general opening hours (without the exceptions)
+ 	* **This Week**: Display the opening hours for this week (@todo: scroll to next previous week)
+ 	* **General**: Display the general opening hours (without the exceptions)
 * Translations for English and Dutch
 
 ##License
