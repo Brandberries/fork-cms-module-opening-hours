@@ -132,6 +132,10 @@
                 <translation language="nl"><![CDATA[tot]]></translation>
                 <translation language="en"><![CDATA[until]]></translation>
             </item>
+            <item type="label" name="From">
+                <translation language="nl"><![CDATA[van]]></translation>
+                <translation language="en"><![CDATA[from]]></translation>
+            </item>
             <item type="label" name="Wednesday">
                 <translation language="nl"><![CDATA[woensdag]]></translation>
                 <translation language="en"><![CDATA[wednesday]]></translation>
